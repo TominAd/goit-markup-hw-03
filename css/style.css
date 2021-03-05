@@ -199,10 +199,24 @@ a {
     height: 101px;
 }
 .feature-list .title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--primary-text-color);
 }
 .feature-list .text{
     margin-top: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    
+    letter-spacing: 0.03em;
 }
 .text{
     font-weight: 400;
@@ -243,11 +257,32 @@ a {
 .work-ul{
     margin-top: 50px;
 }
+/* description team */
+.team-ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 215px;
+    margin-top: 50px;
+    
+}
+.team-ul .item{
+    width: 270px;
+    height: 368px;
+    background-color: var(--white-color);
+}
+.team-ul .item:not(:last-child) {
+    margin-right: 30px;
+    
+}
 .work-team{
     background-color: var(--backgroundcolor-team);
     margin-top: 94px;
+    width: 1600px;
+    height: 648px;
 }
+
 .name-team{
+    margin-top: 30px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -256,6 +291,7 @@ a {
     color: var(--primary-text-color);
 }
 .team-profession{
+    margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -271,7 +307,13 @@ a {
 
 /* footer */
 .footer{
+       
     background-color: var(--back-color);
+    height: 252px;
+    width: 1600px;
+}
+.footer-div{
+    padding-top: 60px;
 }
 .logo-footer{
     
@@ -282,8 +324,11 @@ a {
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
+.address-ul{
+    margin-top: 20px;
+}
 .footer-addres {
-    
+    margin-left: 215px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -292,7 +337,8 @@ a {
     color: var(--white-color);
 }
 .footer-info{
-    
+    margin-left: 215px;
+    margin-top: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -303,18 +349,49 @@ a {
 
 /* page portfolio */
 .portfolio {
+    margin-top: 94px;
+    margin-left: 215px;
+    margin-right: 215px;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
+.title-portfolio{
+    margin-left: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
 .portfolio .text {
+    margin-left: 24px;
+    margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+}
+.button-ul{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.btn-div-portfolio{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 611px;
+    /* height: 54px; */
+    
+}
+.button-ul .item:not(:last-child) {
+    margin-right: 8px;
+
 }
 .button-portfolio{
     font-weight: 500;
@@ -322,6 +399,7 @@ a {
     line-height: 1.62;
     letter-spacing: 0.03em;
     cursor: pointer;
+    border-radius: 4px;
     color: var(--praimary-text-color);
     background-color: var(--backgroundcolor-team);
 
@@ -332,3 +410,37 @@ a {
    background-color: var(--accent-color);
    }
 
+.portfolio-ul{
+    display: flex;
+    width: 1170px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    
+}
+
+.portfolio-li {
+    width: 370px;
+    height: 404px;
+    background-color: var(--white-color);
+}
+
+.portfolio-ul .portfolio-li:not(:last-child){
+    margin-right: 30px;
+    margin-bottom: 30px;
+
+}
+
+.portfolio-ul .portfolio-li:nth-child(3n) {
+    margin-right: 0;
+}
+.portfolio-ul .portfolio-li:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+}
+/* fotter portfolio */
+.footer-portfolio {
+    margin-top: 94px;
+
+    background-color: var(--back-color);
+    height: 252px;
+    width: 1600px;
+}
