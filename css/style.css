@@ -79,7 +79,7 @@ a {
 .body{
     max-width: 1600px;
     max-height: 2349px; 
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* block Heder */
