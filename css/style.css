@@ -212,7 +212,7 @@ a {
     margin: 0 auto;
     width: 1200px;
 }
-    .feature-list .item {
+.feature-list .item {
     width: 270px;
    
 }
@@ -276,10 +276,11 @@ a {
     padding-right: 15px;
     margin: 0 auto;
     width: 1200px;
-}
-.work-ul{
     margin-top: 50px;
 }
+/* .work-ul{
+    
+} */
 /* description team */
 .taem-div{
     width: 1200px;
