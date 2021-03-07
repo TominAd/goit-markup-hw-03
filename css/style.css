@@ -204,8 +204,7 @@ a {
 /* section feature */
 .feature-list{
     padding-top: 94px;
-    padding-bottom: 94px;
-    
+        
 }
 .feature-list .item:not(:last-child) {
     margin-right: 30px;
@@ -272,7 +271,7 @@ a {
 }
 .work-list-foto{
     padding-top: 94px;
-    padding-bottom: 94px;
+    
 }
 .work-list-foto .item:not(:last-child) {
     margin-right: 30px;
