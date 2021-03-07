@@ -319,7 +319,7 @@ a {
 }
 .work-team{
     padding-top: 94px;
-    
+
 }
 
 .name-team{
@@ -395,16 +395,17 @@ a {
 }
 /* main portfolio */
 .main-portfolio{
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-    width: 1200px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* page portfolio */
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    width: 1200px;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
