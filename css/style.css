@@ -52,8 +52,11 @@ a {
 
 .hero {
     background-color: var(--back-color);
-    padding-top: 200px;
-    padding-bottom: 280px;
+    max-width: 1600px;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* logo link */
 .logo-link {
@@ -174,7 +177,7 @@ a {
     text-transform: uppercase;
 }
 .button-div{
-    margin-top: 30px;
+    padding-top: 30px;
 } 
 /* class IMG */
 .img-class{
@@ -269,7 +272,7 @@ a {
     margin-right: 30px;
     display: block;
 }
- .work-list-foto ul {
+ .work-list-foto .work-ul {
     display: flex;
     flex-wrap: wrap;
     padding-left: 15px;
