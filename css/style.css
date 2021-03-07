@@ -88,10 +88,12 @@ a {
 }
 
 /* block Heder */
-/* .header{
-    display: flex;
+ .header{
+    border-bottom: 1px solid #ECECEC;
+    width: 1600px;
+    margin: 0 auto;
 
-}  */
+}
 /* container (flex) */
 .main-nav{
     display: flex;
@@ -481,6 +483,9 @@ a {
 .portfolio-ul .portfolio-li:not(:last-child){
     margin-right: 30px;
     margin-bottom: 30px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 
 }
 
