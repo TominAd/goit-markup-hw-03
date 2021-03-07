@@ -51,12 +51,15 @@ a {
 }
 
 .hero {
-    background-color: var(--back-color);
-    max-width: 1600px;
-    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main-hero{
+    width: 1600px;
+    padding-top:200px;
+    padding-bottom: 280px;
+    background-color: var(--back-color)
 }
 /* logo link */
 .logo-link {
@@ -80,8 +83,7 @@ a {
 
 /* body site */
 .body{
-    max-width: 1600px;
-    max-height: 2349px; 
+    
     margin: 0 auto;
 }
 
@@ -202,6 +204,7 @@ a {
 /* section feature */
 .feature-list{
     padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 .feature-list .item:not(:last-child) {
@@ -214,6 +217,9 @@ a {
     padding-right: 15px;
     margin: 0 auto;
     width: 1200px;
+    justify-content: center;
+    align-items: center;
+    
 }
 .feature-list .item {
     width: 270px;
@@ -279,23 +285,28 @@ a {
     padding-right: 15px;
     margin: 0 auto;
     width: 1200px;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 /* .work-ul{
     
 } */
 /* description team */
 .taem-div{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
+    width: 1600px;
+    background-color: var(--backgroundcolor-team);
+    padding-top: 94px;
+    padding-bottom: 94px;
     margin: 0 auto;
 }
 .team-ul {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
-    
+    justify-content: center;
+    margin: 0 auto;
 }
 .team-ul .item{
     width: 270px;
@@ -304,14 +315,11 @@ a {
 }
 .team-ul .item:not(:last-child) {
     margin-right: 30px;
-    
+    padding-bottom: 30px;
 }
 .work-team{
-    background-color: var(--backgroundcolor-team);
     padding-top: 94px;
-    padding-bottom: 94px;
-    width: 1600px;
-    /* height: 648px; */
+    
 }
 
 .name-team{
@@ -341,18 +349,20 @@ a {
 /* footer */
 .footer{
        
-    background-color: var(--back-color);
-    
-    width: 1600px;
+    justify-content: center;
+    display: flex;
 }
 .footer-div{
-    margin: 0 auto;
+    width: 1600px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--back-color);
+}
+.footer-link-div{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
+    margin: 0 auto;
 }
 .logo-footer{
     
@@ -464,7 +474,7 @@ a {
 
 .portfolio-li {
     width: 370px;
-    /* height: 404px; */
+    
     background-color: var(--white-color);
 }
 
