@@ -399,9 +399,9 @@ img{
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
-.address-ul{
+/* .address-ul{
     /* padding-top: 20px; */
-}
+
 .footer-addres {
     font-style: normal;
     font-weight: 400;
@@ -420,10 +420,10 @@ img{
     color: var(--color-info);
 }
 /* main portfolio */
-.main-portfolio{
+/* .main-portfolio{
     /* padding-top: 94px;
-    padding-bottom: 94px; */
-}
+    padding-bottom: 94px; 
+} */
 
 /* page portfolio */
 .portfolio {
