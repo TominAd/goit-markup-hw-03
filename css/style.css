@@ -280,7 +280,7 @@ img{
 }
 /* work-title */
 .work-title{
-    padding-top: 94px;
+    
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -335,7 +335,7 @@ img{
     
 }
 .work-team{
-    
+    padding-top: 94px;
     padding-bottom: 94px;
     background-color: var(--backgroundcolor-team);
 
@@ -388,7 +388,7 @@ img{
     margin: 0 auto;
 }
 .address{
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .logo-footer{
     
@@ -402,6 +402,9 @@ img{
 /* .address-ul{
     /* padding-top: 20px; */
 
+.adress-li{
+    margin-top: 9px;
+}
 .footer-addres {
     font-style: normal;
     font-weight: 400;
@@ -441,9 +444,7 @@ img{
     color: var(--primary-text-color);
 }
 .title-portfolio{
-    padding-top: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -453,9 +454,7 @@ img{
     color: var(--primary-text-color);
 }
 .portfolio .text {
-    padding-bottom: 20px;
-    padding-left: 24px;
-    padding-right: 24px;
+    
     margin-top: 4px;
     font-weight: 400;
     font-size: 16px;
@@ -510,6 +509,10 @@ img{
     background-color: var(--white-color);
 }
 .portfolio-li-div{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     background: #FFFFFF;
     box-sizing: border-box;
     border-right-width: 1px;
